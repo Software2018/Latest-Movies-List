@@ -2,10 +2,13 @@
   text-align: center;
 }
 
-
+img{
+  width: 10rem;
+  height: auto;
+}
 
 .App-header {
-  background-color: #222;
+  background-color: #111;
   height: 60px;
   padding: 20px;
   color: white;
@@ -24,16 +27,34 @@
   to { transform: rotate(360deg); }
 }
 
-.float{
-display: auto;
 
-}
-img{
-  width:auto;
+.container{
+  border: 20px solid black;
 }
 
-img #one{
-  width:20%;
-  height:35%;
+
+.Flex{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+flex-wrap: wrap;
+max-height: 100vh;
+justify-content: space-between;
+
+
+  }
+
+.flex-item{
+  margin:10px;
+  border: 3px solid black;
+  box-shadow: 3px 3px 8px 0px rgba(0,0,0,3);
+  max-width:23vh;
+}
+
+
+@media screen and (max-width:320px){
+.Flex{
+  justify-content: space-around;
+}
 
 }

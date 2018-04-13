@@ -4,7 +4,7 @@ import Movie from './movie'
 
 
 
-class MovieList extends React.Component {
+class MovieList extends React.PureComponent {
   state={
     movies:[]
   }
@@ -28,9 +28,10 @@ render(){
 return(
 
 
-<div>
-      {this.state.movies.map(movie=>( <Movie key={movie.id} title={movie.title} desc={movie.overview} poster={movie.poster_path}  movie={movie}/> ))}
+<div className="Flex">
+   {this.state.movies.map(movie=>( <Movie key={movie.id} title={movie.title} desc={movie.overview} poster={movie.poster_path}  movie={movie}/> ))}
 </div>
+
 
 )}}
 
