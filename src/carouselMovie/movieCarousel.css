@@ -1,0 +1,30 @@
+.Img {
+  margin-top: 1%;
+}
+
+p {
+  font-size: 60%;
+}
+.button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.button:hover {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.button:visited {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.button:focus {
+  border: none;
+  outline: none;
+  background: none;
+}
